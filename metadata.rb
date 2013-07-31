@@ -11,4 +11,5 @@ end
 
 recipe "php5-redis::install", "This recipe is used to install php5-redis"
 
+depends "apt"
 depends "php"
